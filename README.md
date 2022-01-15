@@ -61,12 +61,15 @@ https://github.com/jiokeokwuosa/InBillo-Node/edit/main/README.md
 
 eg of the expected 
 `request body{
-    accountNumber:2011513330, // you can equally select
-    reportCategory:'daily', // can either be daily or range
-    reportDate1:'2022-01-01' // this is enough if you select daily as the reportCategory
-    reportDate2:'2022-01-04' // this is required if you select range as the reportCategory
+    accountNumber:2011513330,
+    reportCategory:'daily',
+    reportDate1:'2022-01-01'
+    reportDate2:'2022-01-04'
 }`
-
+- accountNumber: you can equally select 2011513331
+- reportCategory: can either be daily or range
+- reportDate1: this is enough if you select daily as the reportCategory
+- reportDate2: this is required if you select range as the reportCategory
 Please you can check out the seeders file to have a clue of the kind of data available
 
 

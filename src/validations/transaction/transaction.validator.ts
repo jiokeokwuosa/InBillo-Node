@@ -18,7 +18,7 @@ export const validateRequestPayload = async (req: Request, res: Response, next: 
         if(!req.body.accountNumber){
             validationMessages.push('Account number is required')
         }else if(req.body.accountNumber && !availableAccounts.includes(req.body.accountNumber)){
-            validationMessages.push('Account number does not exist')
+            validationMessages.push('Account number does not exist, Please use 2011513330 or 2011513331 to test')
         }
 
         // validate category
